@@ -1,0 +1,7 @@
+---
+# vars file for /root/.ansible/roles/mycustomrole2
+custom_heading: "Welcome To DevOps B9 Batch Training By Sreeharsha Veerapalli"
+todays_date: "{{ ansible_facts['date_time']['date'] }}"
+host_name: "{{ ansible_facts['hostname'] }}"
+fqdn_name: "{{ ansible_facts['fqdn'] }}"
+ip_address: "{{ ansible_facts['eth0']['ipv4']['address'] }}"
